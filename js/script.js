@@ -9,6 +9,5 @@ if(numero % 2 === 0){
 }else{   
     //è dispari?
     //si, stampa il numero + 1
-    numero++;
-    console.log(numero);
+    console.log(numero + 1);
 }
