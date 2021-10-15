@@ -16,8 +16,29 @@ if( array1.length > array2.length){
         array2.push(number);
         console.log("array2 nel while", array2);
     }
+}else if (array1.length < array2.length){
+    while (array2.length !== array1.length){
+        let number =  parseInt(prompt("inserisci un numero per l'array più piccolo"));
+        array1.push(number);
+        console.log("array1 nel while", array1);
+    }
 }
 
 
 console.log("array1",array1,"array2", array2)
 
+
+
+/* const array3 = ['ciao'];
+const array4 = ['hola', 'hello'];
+if( array3.length > array4.length){
+    //finchè non hanno lunghezza uguale faccio questa cosa
+    while (array4.length !== array3.length){
+        //pusho un numero random da 1 a 10
+        let salutoGenerico =  parseInt(prompt("inserisci ciao in una lingua che conosci per l'array più piccolo"));
+        array2.push(salutoGenerico);
+        console.log("array4 nel while", array4);
+    }
+}
+console.log("array3",array3,"array4", array4)
+ */
