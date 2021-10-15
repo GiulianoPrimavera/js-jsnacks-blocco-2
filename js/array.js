@@ -10,9 +10,9 @@ console.log("array2", array2);
 //se la length del primo elemento è maggiore del secondo allora lo prendo di mira
 if( array1.length > array2.length){
     //finchè non hanno lunghezza uguale faccio questa cosa
-    while (array2.length != array1.length){
+    while (array2.length !== array1.length){
         //pusho un numero random da 1 a 10
-        let number =  prompt("inserisci un numero per l'array più piccolo");
+        let number =  parseInt(prompt("inserisci un numero per l'array più piccolo"));
         array2.push(number);
         console.log("array2 nel while", array2);
     }
